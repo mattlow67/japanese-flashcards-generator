@@ -13,15 +13,11 @@ A helpful tool for making [Anki](https://apps.ankiweb.net/) flash cards with Jap
 ## How to Use
 Linux :
 1. Save 'mined' words and sentences to a .tsv file, as formatted like below:
-```
-<term>\t<sentence>\t<source>\n
-```
+   <term>\t<sentence>\t<source>\n  
 2. Save the .tsv file inside the folder 'words'
 3. Navigate to the folder with 'main.py'
 4. Run the command:	
-```
-python main.py <file.tsv>
-```
+   python main.py <file.tsv>  
 5. In Anki, go to File > Import and select 'output.tsv'
 
 <p align="center">
