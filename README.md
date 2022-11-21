@@ -10,6 +10,12 @@ A helpful tool for making [Anki](https://apps.ankiweb.net/) flash cards with Jap
 * [Tokenization](https://en.wikipedia.org/wiki/Lexical_analysis#Tokenization) via [Fugashi](https://www.dampfkraft.com/nlp/how-to-tokenize-japanese.html) refines sample text by filtering sentences based on their relevance
 * Neatly formats fields and writes them to a .tsv file that can be easily imported into Anki
 
+<br>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/69742757/202934211-216bccaa-5b22-436a-b6e5-f1e467332a8b.png" alt="" />
+</p>
+<br>
+
 ## How to Use
 Linux :
 1. Save 'mined' words and sentences to a .tsv file, as formatted like below:
