@@ -41,3 +41,4 @@ Linux :
 * Refine highlighting for target words
 * Refactor main.py
 * Add more text sources
+* Create gitignore for env
