@@ -16,10 +16,10 @@ Linux :
 > \<term\>\t\<sentence\>\t\<source\>\n
 2. Save the .tsv file inside the folder 'words'
 3. Navigate to the project folder
-4. (Optional) Set up a virtual environment
-5. Install the depencies.
+4. (Optional) Create a virtual environment
+5. Install the dependencies
 > pip install -r requirement.txt
-6. Run the command:
+6. Run the script, including the .tsv file to be processed
 > python main.py <file.tsv>
 7. In Anki, go to File > Import and select 'output.tsv'
 
@@ -28,7 +28,7 @@ Linux :
 </p>
 
 ## Dependencies
-* Developed with Python 3.8.10. Using a virtual environment is highly recommended.
+* Developed with Python 3.8.10
 * [Python Requests](https://docs.python-requests.org)
 * [Beautiful Soup](https://beautiful-soup-4.readthedocs.io/en/latest/#installing-beautiful-soup)
 * [Jamdict](https://github.com/neocl/jamdict)
