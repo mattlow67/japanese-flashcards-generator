@@ -22,9 +22,10 @@ Linux :
 > \<term\>\t\<sentence\>\t\<source\>\n
 2. Save the .tsv file inside the folder 'words'
 3. Navigate to the project folder
-4. (Optional) Create a virtual environment
+4. (Optional) Create and activate a virtual environment
 5. Install the dependencies
 > pip install -r requirement.txt
+> python -m unidic download
 6. Run the script, including the .tsv file to be processed
 > python main.py <file.tsv>
 7. In Anki, go to File > Import and select 'output.tsv'
@@ -39,7 +40,7 @@ Linux :
 * [Beautiful Soup](https://beautiful-soup-4.readthedocs.io/en/latest/#installing-beautiful-soup)
 * [Jamdict](https://github.com/neocl/jamdict)
 * [Pykakasi](https://github.com/miurahr/pykakasi)
-* [Fugashi](https://github.com/polm/fugashi)
+* [Fugashi](https://github.com/polm/fugashi) - requires unidic to be downloaded separately
 
 ## To Do
 * Add case for terms with parenthesis (ex, おとなしい　(大人しい))
