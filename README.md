@@ -18,16 +18,16 @@ A tool for making [Anki](https://apps.ankiweb.net/) flash cards with Japanese te
 
 ## How to Use
 Linux :
-1. Save "mined" words and sentences to a .tsv file as formatted like below. An example, *wordslist.tsv*, is included in *words*.
+1. Save "mined" words and sentences to a .tsv file with the following format. An example, *wordslist.tsv*, is included in *words*.
 ```bash
-\<term\>\t\<sentence\>\t\<source\>\n
+<term>\t<sentence>\t<source>\n
 ```
 2. Save the .tsv file inside *words*.
 3. Navigate to the project directory
 4. (Optional) Create and activate a virtual environment
 5. Install the dependencies
 ```bash
-pip install -r requirement.txt
+pip install -r requirements.txt
 python -m unidic download
 ```
 6. Run the script, including the .tsv file to be processed
